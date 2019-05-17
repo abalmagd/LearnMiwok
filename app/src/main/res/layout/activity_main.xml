@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/numbers_category_background">
+        <TextView
+            android:id="@+id/numbers_category_text_view"
+            style="@style/categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/catNumbers" />
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/family_category_background">
+        <TextView
+            android:id="@+id/family_category_text_view"
+            style="@style/categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/catFamily" />
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colors_category_background">
+        <TextView
+            android:id="@+id/colors_category_text_view"
+            style="@style/categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/catColors" />
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/phrases_category_background">
+        <TextView
+            android:id="@+id/phrases_category_text_view"
+            style="@style/categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/catPhrases" />
+    </FrameLayout>
+</LinearLayout>

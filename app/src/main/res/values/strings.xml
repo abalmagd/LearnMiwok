@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Learn Miwok</string>
+
+    <!-- Main Menu Category Names -->
+    <string name="catNumbers">Numbers</string>
+    <string name="catFamily">Family</string>
+    <string name="catColors">Colors</string>
+    <string name="catPhrases">Phrases</string>
+
+</resources>
